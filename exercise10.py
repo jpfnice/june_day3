@@ -2,7 +2,7 @@
 """
 Stack:
     a stack is a collection
-    a stack as a maximum size
+    a stack has a maximum size
     a push() method is provided to add a new element "on top" of the Stack
     a peek() method is provided to get the value of the element "on top" of the 
     Stack
@@ -17,15 +17,15 @@ Attributes:
 
 
 class stack: # __init__ __repr__
-    # TO BE COMPLETED
     def __init__(self, maximum):
-        # TO BE COMPLETED
+        # TO BE COMPLETED: 
+        # __init__ normally takes care of initializing the attributes
         pass
     def push(self, value):
-        # 1) Do I have some space available in self ?
+        # 1) Is there some space available in self ?
         # 2) If Yes, then we have to "store" value into Stack
-        # 3) it No, then we print an error message
-        
+        # 3) if No, then we print an error message
+        # TO BE COMPLETED
         pass
     def __repr__(self):
         # returns a string representation of self
@@ -36,12 +36,21 @@ class stack: # __init__ __repr__
         # TO BE COMPLETED
         pass
     def peek(self):
+        # 1) Is there one or more element in self ?
+        # 2) If Yes, then return the last element of self
+        # 3) if No, then we print an error message
         # TO BE COMPLETED
         pass
     def pop(self):
+        # 1) Is there one or more element in self ?
+        # 2) If Yes, then return and remove the last element of self
+        # 3) if No, then we print an error message
         # TO BE COMPLETED
         pass
     def isEmpty(self):
+        # 1) Is there one or more element in self ?
+        # 2) If Yes, then return True
+        # 3) if No, then return False
         # TO BE COMPLETED
         pass
     
